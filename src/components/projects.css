@@ -1,0 +1,30 @@
+/* projects.css */
+.projects {
+    text-align: center;
+  }
+  
+  .project-item {
+    margin-bottom: 40px;
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05); /* Enlarge the project item on hover */
+  }
+  
+  .project-item img {
+    width:500px;
+    margin: 0 5px; /* Add some margin between images */
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+  }
+  
+  .project-item p {
+    margin: 8px 0;
+    opacity: 0; /* Initially hide the project details */
+    transition: opacity 0.3s ease; /* Add a smooth transition for opacity */
+  }
+  
+  .project-item:hover p {
+    opacity: 1; /* Show the project details on hover */
+  }
+  

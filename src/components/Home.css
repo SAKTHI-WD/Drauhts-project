@@ -1,0 +1,109 @@
+/* Your existing styles */
+
+.home {
+    background-image: url('../photos/pexels-aleksandar-pasaric-1758672-darker.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .home-div {
+    padding: 10% 5%; /* Adjusted padding for responsiveness */
+    text-align: center;
+  }
+  
+  .home-h1 {
+    font-size: 3rem; /* Adjusted font size */
+  }
+  
+  .div2 {
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+  
+  .icon {
+    font-size: 3rem; /* Adjusted font size */
+  }
+  
+  .row {
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+   display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .col {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px; 
+    
+  }
+  
+  .col:hover {
+    transform: translate(-4px,-4px);
+    box-shadow: 5px 5px 8px -2px #0d0524;
+  }
+  
+  .start {
+    padding: 50px;
+    text-align: center;
+    background-color: #0d0544;
+    color: #fff;
+  }
+  
+  .buildp {
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+  
+  .buildbtn {
+    padding: 15px 20px;
+    font-size: 1rem; /* Adjusted font size */
+    background-color: #60c20b;
+    color: #fff;
+  }
+  
+  .buildbtn:hover {
+    opacity: 0.8;
+  }
+  
+  .col:hover {
+    background-color: #0d0544;
+    color: #fff;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .home-div {
+      padding: 20% 5%; /* Adjusted padding for smaller screens */
+    }
+  
+    .home-h1 {
+      font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .div2 {
+      font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .icon {
+      font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .col {
+      width: calc(50% -20px); /* Two columns per row on smaller screens */
+    }
+  
+    .start {
+      padding: 30px; /* Adjusted padding for smaller screens */
+    }
+  
+    .buildp {
+      font-size: 1rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .buildbtn {
+      padding: 10px 15px;
+      font-size: 0.8rem; /* Adjusted font size for smaller screens */
+    }
+  }
+  
